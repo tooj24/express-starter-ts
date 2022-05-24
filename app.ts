@@ -1,3 +1,4 @@
+require('dotenv').config()
 import 'reflect-metadata'
 import './src/controller'
 import { InversifyExpressServer } from 'inversify-express-utils'

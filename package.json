@@ -5,9 +5,11 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon .",
+    "start": "tsc -p . && node build/app.js",
     "build": "tsc -p ."
   },
   "dependencies": {
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "inversify": "^6.0.1",
     "inversify-express-utils": "^6.4.3",
